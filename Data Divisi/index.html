@@ -1,0 +1,238 @@
+<html>
+ <head>
+  <title>
+   Data Divisi
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="flex">
+   <!-- Sidebar -->
+   <div class="w-64 bg-white h-screen shadow-md">
+    <div class="p-4 flex items-center">
+     <img alt="University Logo" class="w-10 h-10 mr-2" height="40" src="https://storage.googleapis.com/a1aa/image/fd1jZl1AxKQTcKPedWxQSyTON69t5ypa2Okw16BkWSaYh2sTA.jpg" width="40"/>
+     <div>
+      <h1 class="text-lg font-bold">
+       PT.Indofood
+      </h1>
+     </div>
+    </div>
+    <div class="p-4">
+     <p class="text-gray-600">
+      Welcome, Muhamad Alfiansyah
+     </p>
+     <p class="text-gray-600">
+      Administrator
+     </p>
+    </div>
+    <nav class="mt-4">
+     <ul>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="#">
+        <i class="fas fa-tachometer-alt mr-2">
+        </i>
+        Divisi
+       </a>
+      </li>
+      <li class="mb-2">
+       <a class="flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded" href="#">
+    
+     </ul>
+    </nav>
+   </div>
+   <!-- Main Content -->
+   <div class="flex-1 p-6">
+    <div class="bg-white p-4 rounded shadow-md">
+     <div class="flex justify-between items-center mb-4">
+      <h2 class="text-xl font-bold">
+       Data Divisi
+      </h2>
+      <button class="bg-blue-500 text-white px-4 py-2 rounded">
+       <i class="fas fa-plus mr-2">
+       </i>
+       Tambah Divisi
+      </button>
+     </div>
+     <div class="flex justify-between items-center mb-4">
+      <div>
+       <label class="mr-2" for="entries">
+        Show
+       </label>
+       <select class="border rounded p-1" id="entries">
+        <option>
+         10
+        </option>
+        <option>
+         25
+        </option>
+        <option>
+         50
+        </option>
+        <option>
+         100
+        </option>
+       </select>
+       <span class="ml-2">
+        entries
+       </span>
+      </div>
+      <div>
+       <label class="mr-2" for="search">
+        Search:
+       </label>
+       <input class="border rounded p-1" id="search" type="text"/>
+      </div>
+     </div>
+     <table class="min-w-full bg-white">
+      <thead>
+       <tr>
+        <th class="py-2 px-4 border-b">
+         No.
+        </th>
+        <th class="py-2 px-4 border-b">
+         Kode Divisi
+        </th>
+        <th class="py-2 px-4 border-b">
+         Nama Divisi
+        </th>
+        <th class="py-2 px-4 border-b">
+         Aksi
+        </th>
+       </tr>
+      </thead>
+      <tbody>
+       <tr>
+        <td class="py-2 px-4 border-b">
+         1
+        </td>
+        <td class="py-2 px-4 border-b">
+         DIV001
+        </td>
+        <td class="py-2 px-4 border-b">
+         Umum
+        </td>
+        <td class="py-2 px-4 border-b">
+         <a class="text-blue-500 mr-2" href="#">
+          <i class="fas fa-edit">
+          </i>
+         </a>
+         <a class="text-red-500" href="#">
+          <i class="fas fa-trash">
+          </i>
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b">
+         2
+        </td>
+        <td class="py-2 px-4 border-b">
+         DIV002
+        </td>
+        <td class="py-2 px-4 border-b">
+         BAUK
+        </td>
+        <td class="py-2 px-4 border-b">
+         <a class="text-blue-500 mr-2" href="#">
+          <i class="fas fa-edit">
+          </i>
+         </a>
+         <a class="text-red-500" href="#">
+          <i class="fas fa-trash">
+          </i>
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b">
+         3
+        </td>
+        <td class="py-2 px-4 border-b">
+         DIV003
+        </td>
+        <td class="py-2 px-4 border-b">
+         BAA
+        </td>
+        <td class="py-2 px-4 border-b">
+         <a class="text-blue-500 mr-2" href="#">
+          <i class="fas fa-edit">
+          </i>
+         </a>
+         <a class="text-red-500" href="#">
+          <i class="fas fa-trash">
+          </i>
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b">
+         4
+        </td>
+        <td class="py-2 px-4 border-b">
+         DIV004
+        </td>
+        <td class="py-2 px-4 border-b">
+         IT
+        </td>
+        <td class="py-2 px-4 border-b">
+         <a class="text-blue-500 mr-2" href="#">
+          <i class="fas fa-edit">
+          </i>
+         </a>
+         <a class="text-red-500" href="#">
+          <i class="fas fa-trash">
+          </i>
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b">
+         5
+        </td>
+        <td class="py-2 px-4 border-b">
+         DIV005
+        </td>
+        <td class="py-2 px-4 border-b">
+         Cleaning Service
+        </td>
+        <td class="py-2 px-4 border-b">
+         <a class="text-blue-500 mr-2" href="#">
+          <i class="fas fa-edit">
+          </i>
+         </a>
+         <a class="text-red-500" href="#">
+          <i class="fas fa-trash">
+          </i>
+         </a>
+        </td>
+       </tr>
+       <tr>
+        <td class="py-2 px-4 border-b">
+         6
+        </td>
+        <td class="py-2 px-4 border-b">
+         DIV006
+        </td>
+        <td class="py-2 px-4 border-b">
+         OB
+        </td>
+        <td class="py-2 px-4 border-b">
+         <a class="text-blue-500 mr-2" href="#">
+          <i class="fas fa-edit">
+          </i>
+         </a>
+         <a class="text-red-500" href="#">
+          <i class="fas fa-trash">
+          </i>
+         </a>
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
